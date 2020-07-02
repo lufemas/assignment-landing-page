@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+
+  /* box-sizing: border-box; */
+
+  
+--jr-text-color: #222;
+
+--jr-btn-primary-color       : #000;
+--jr-btn-hover-primary-color : #000;
+
+--jr-btn-primary-bg-color       : #AE1F1E;
+--jr-btn-hover-primary-bg-color : #e04343;
+
+--jr-btn-border-primary-color       : #eee;
+--jr-btn-hover-border-primary-color : #fff;
+
+
+}
+
+:root{
+  font-size: 14px;
+}
+
+header{
+  background-color: #fff;
+}
+
+body{
+  color: #fff;
+  background-color: #E1E1E1;
+  font-family: 'New Rocker', cursive;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+.banner{
+  background: #222 url('../img/banner.png') right no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.section-map{
+  background: #222 url('../img/bg1.png') center no-repeat;
+  background-size: cover;
+}
+
+.section-final{
+  background: #222 url('../img/bg2.png') center no-repeat;
+  background-size: cover;
+}
+
+.section-bio{
+  color: #222;
+  font-size: 1.15rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.grid-img{
+  width: auto;
+}
+
+.w80{
+  width: 80%;
+}
+
+
+.w70{
+  width: 70%;
+}
+
+.button.black{
+  color: #eee;
+  background-color: #111;
+  border-color: #AE1F1E;
+}
+
+.jr.button:hover, .jr.button-primary:hover{
+  text-decoration: none;
+  box-shadow: rgba(238, 238, 238, 0.644) 0 0 15px 0px;
+}
+
+.button.black:hover{
+  color: #fff;
+  background-color: #111;
+  border-color: #f33232;
+}
+
+.jr.button, .jr.button-primary{
+  border-radius: 1px;
+  font-size: 1.25rem;
+  display: inline-block;
+  text-align: center;
+  width: 12rem;
+}
+
+.counter{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.counter span{
+  font-size: 1.75rem;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.counter-label{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.jr.button.book-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.75rem;
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+}
+
+.jr.button.book-btn span{
+  font-size: 2rem;
+  display: block;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+
+  :root{
+    font-size: 16px;
+  }
+
+  .banner{
+    background: #222 url('../img/banner.png') center no-repeat;
+    background-size: cover;
+    height: 30rem;
+  }
+  
+  .section-map{
+    background: #222 url('../img/bg1.png') center no-repeat;
+    background-size: cover;
+  }
+  
+  .section-final{
+    background: #222 url('../img/bg2.png') center no-repeat;
+    background-size: cover;
+  }
+
+  .w-m-80{
+    width: 80%;
+  }
+}
