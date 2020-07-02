@@ -20,8 +20,12 @@
 
 }
 
+
+
 :root{
   font-size: 14px;
+  scrollbar-width: thin;
+  scrollbar-color: #AE1F1E rgba(0, 0, 0, 0.904);
 }
 
 header{
@@ -32,6 +36,7 @@ body{
   color: #fff;
   background-color: #E1E1E1;
   font-family: 'New Rocker', cursive;
+ 
 }
 
 h1{
@@ -61,7 +66,7 @@ h1{
 }
 
 .grid-img{
-  width: 100%;
+  width: auto;
 }
 
 .w80{
